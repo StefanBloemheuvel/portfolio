@@ -17,9 +17,11 @@ p {
 }
 
 img {
-    width: 40em;
-    max-width: 90%;
+    width: 15em;
+    border-radius: 50%;
 }
+
+.circular--square { border-radius: 50%; }
 
 .publication {
     margin-bottom: 20px;
