@@ -1,7 +1,7 @@
 const nodes = [
-  { id: 1, label: 'Node 1' },
-  { id: 2, label: 'Node 2' },
-  { id: 3, label: 'Node 3' },
+  { id: 1, label: 'A' },
+  { id: 2, label: 'B' },
+  { id: 3, label: 'C' },
 ];
 
 const edges = [
