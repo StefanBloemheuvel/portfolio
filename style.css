@@ -52,3 +52,53 @@ img {
     font-size: 16px;
     color: #666;
   }
+  
+  .publication.misc-work {
+    /* Add your desired background color for the "Misc. Work" section */
+    background-color: #dadeeb;
+}
+
+.separator {
+    height: 30px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p, .footer ul {
+  margin: 0;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 10px 0;
+}
+
+.footer ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Center the GitHub logo and text within the footer */
+.github-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.github-logo img {
+  margin-bottom: 5px;
+  max-width: 75px;
+}
