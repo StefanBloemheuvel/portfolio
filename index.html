@@ -4,11 +4,15 @@
   <!-- Add the following link in your <head> section -->
     <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <title>Portfolio</title>
   <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
+
+  <div id="particles-js"></div>
+
 
   <h1>Portfolio Page</h1>
   <h3>Stefan Bloemheuvel</h4>
@@ -96,5 +100,29 @@
     <p>&copy; 2023 Stefan Bloemheuvel.</p>
   </div>
 
+  <script>
+    particlesJS("particles-js", {
+    particles: {
+      number: {
+        value: 50,
+        density: {
+          enable: true,
+          value_area: 800
+        }
+      },
+      size:{
+        value: 10,
+      },
+      line_linked: {
+        distance: 150, // Increase if you want to connect particles over a greater distance
+        // color: "#ffffff",
+        opacity: 1,
+        width: 6 // Increase this value to make the lines thicker
+      },
+      // ... other options
+    },
+    // ... other settings
+  });
+  </script>
 </body>
 </html>
